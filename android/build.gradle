@@ -16,11 +16,11 @@ apply plugin: 'com.android.library'
 
 android {
     namespace 'fr.g123k.flutterappbadge.flutterappbadger'
-    compileSdkVersion 34 // or 33 is safer unless 35 is fully ready on your system
+    compileSdkVersion 35
 
     defaultConfig {
         minSdkVersion 21
-        targetSdkVersion 34
+        targetSdkVersion 35
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
     }

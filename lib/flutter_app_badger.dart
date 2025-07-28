@@ -4,8 +4,8 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 
 class FlutterAppBadger {
-  static const MethodChannel _channel =
-      const MethodChannel('g123k/flutter_app_badger');
+  static const MethodChannel _channel = MethodChannel('example/channel');
+
 
   static Future<void> updateBadgeCount(int count) async {
     final mock = _mockUpdateBadgeCount;
